@@ -13,7 +13,7 @@ var s=""
 document.getElementById("sub").onclick=function()
 {
     var a =parseInt(document.getElementById("n1").value);
-    ans=ans+a;
+    ans=Math.abs(ans-a);
     if(s.length==0)
     s=s+a;
     else
@@ -25,7 +25,7 @@ document.getElementById("sub").onclick=function()
 document.getElementById("mul").onclick=function()
 {
     var a =parseInt(document.getElementById("n1").value);
-    ans=ans+a;
+    ans=ans*a;
     if(s.length==0)
     s=s+a;
     else
@@ -36,7 +36,7 @@ document.getElementById("mul").onclick=function()
 document.getElementById("div").onclick=function()
 {
     var a =parseInt(document.getElementById("n1").value);
-    ans=ans+a;
+    ans=ans/a;
     if(s.length==0)
     s=s+a;
     else

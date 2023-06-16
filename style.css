@@ -22,6 +22,7 @@ body{
     margin-top: 5px;
     border: 2px solid black;
     padding: 4px;
+    width: fit-content;
     
 }
 #wait{
@@ -32,7 +33,7 @@ body{
     margin-top: 40px;
     border: 2px solid black;
     padding: 4px;
-    
+    width: fit-content;
 }
 .results{
     padding: 10px;
