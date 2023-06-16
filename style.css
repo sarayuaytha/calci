@@ -1,0 +1,62 @@
+.box{
+    border: 8px solid white;
+    height: 550px;
+    width: 450px;
+    background-color:rgba(244, 154, 154,0.5);
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 85px;
+    font-size:20px;
+}
+body{
+    background-color:rgb(214, 211, 211);
+    background-image: url('https://images.unsplash.com/photo-1548263594-a71ea65a8598?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1176&q=80');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#result{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 2px solid black;
+    padding: 4px;
+    
+}
+#wait{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: 2px solid black;
+    padding: 4px;
+    
+}
+.results{
+    padding: 10px;
+}
+input{
+    background-color:white ;
+    height: 70px;
+    width:70px ;
+    border-radius: 10px;
+    font-size: x-large;
+    font-style: bold;
+    color: black;
+  
+
+}
+.num1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:  x-large;
+    color:white;
+    
+}
+div{
+    margin-bottom: 20px;
+}
+#n1{
+    width: 300px;
+}
